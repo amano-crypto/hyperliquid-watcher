@@ -2,7 +2,7 @@ import time
 import requests
 import os
 
-WEBHOOK_URL = os.environ["https://discord.com/api/webhooks/1460146496870813852/njrYGkDQvdLqGNmi7x3nW0c-FCnkv3GlveNcr_G5USexOolxEnkqAUEpIho_i9jQoSMj"]
+WEBHOOK_URL = os.environ["WEBHOOK_URL"]
 
 WALLETS = [
     "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae",
